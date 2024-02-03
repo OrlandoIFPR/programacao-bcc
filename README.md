@@ -1,1 +1,6 @@
-# programacao-bcc
+```c
+
+int main(){
+  return 0;
+}
+```
