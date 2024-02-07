@@ -75,25 +75,13 @@ DEITEL, Harvey M.; DEITEL, Paul J.. C++:como programar. 5. ed. São Paulo: Pears
 
 #### Critérios e formas de avaliação
 
-No transcorrer do semestre teremos 3 avaliações que serão:
+No transcorrer do semestre teremos 4 avaliações que serão:
 
 * Listas de exercícios (L)
 * Prova 1 (P1)
 * Trabalho/Projeto (T)
 * Prova 2 (P2)
 
-A média do semestre é feita através do cálculo: Média = (L*2+P1*2+T*2+P2*4) / 10.
-
-A média do semestre será convertida em conceito seguindo essas regras:
-```
-9,0 <= A <= 10,0
-
-7,5 <= B <= 8,9
-
-6,0 <= C <= 7,4
-
-       D <= 5,9
-```
 
 **Importante**: Para aprovação é necessário o conceito igual ou superior à C.
 
