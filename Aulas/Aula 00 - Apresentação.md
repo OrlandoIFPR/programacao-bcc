@@ -3,6 +3,7 @@
 #### Apresentação da disciplina
 
 **Prof**: João Paulo Orlando
+
 **Curso**: Bacharelado em Ciência da Computação
 
 #### Minha Apresentação
@@ -69,8 +70,8 @@ DEITEL, Harvey M.; DEITEL, Paul J.. C++:como programar. 5. ed. São Paulo: Pears
 #### BIBLIOGRAFIA EXTRA ONLINE
 
 [cplusplus](https://cplusplus.com/doc/tutorial/)
-[w3schools](https://www.w3schools.com/cpp/default.asp)
 
+[w3schools](https://www.w3schools.com/cpp/default.asp)
 
 
 #### Critérios e formas de avaliação
