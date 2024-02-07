@@ -83,18 +83,23 @@ No transcorrer do semestre teremos 4 avaliações que serão:
 * Trabalho/Projeto (T)
 * Prova 2 (P2)
 
-
 **Importante**: Para aprovação é necessário o conceito igual ou superior à C.
 
 Nas listas de exercícios, o sistema de anti-plágio estará ativado, caso identifique alguma suspeita de plágio, convocarei o(s) aluno(s) para realizar uma atividade presencial de resolução e apresentação dos exercícios resolvidos.
 
-As listas de exercícios deverão ser feitas no site [Beecrowd](https://www.beecrowd.com.br/judge/pt/login). Para tanto, vocês devem fazer o cadastro nesse site. Acessar as listas de exercícios através do botão **Academic**, digitando:
 
-**ID Disciplina**: 12064
+#### Material de aula
 
-**Chave**: 1duIMxs
+[ClassRoom](https://classroom.google.com)
+* **Código de acesso**: sdzbzv2 
 
-Outras informações serão passadas mais adiante.
+[GitHub](https://github.com/OrlandoIFPR/programacao-bcc)
+
+[Beecrowd](https://www.beecrowd.com.br/judge/pt/login): 
+* Acessar as listas de exercícios através do botão **Academic**, digitando:
+    * **ID Disciplina**: 12064
+
+    * **Chave**: 1duIMxs
 
 #### Atendimento
 Os meus horários de atendimentos serão exclusivamente:
