@@ -92,7 +92,8 @@ A média do semestre será convertida em conceito seguindo essas regras:
 
 6,0 <= C <= 7,4
 
-       D <= 5,9```
+       D <= 5,9
+```
 
 **Importante**: Para aprovação é necessário o conceito igual ou superior à C.
 
