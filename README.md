@@ -1,6 +1,6 @@
-```c
+### Introdução à Programação 
+**Curso**: Bacharelado em Ciência da Computação 
+IFPR - Campus Pinhais
 
-int main(){
-  return 0;
-}
-```
+
+Em construção ...
