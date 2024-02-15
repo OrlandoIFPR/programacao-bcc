@@ -180,6 +180,31 @@ Algoritmo de Decisão do Guarda-Chuva:
 
 Este é um exemplo básico de um algoritmo de decisão que uma pessoa pode seguir diariamente ao se deparar com a escolha de levar ou não um guarda-chuva. É uma sequência lógica de passos baseada em observações e condições meteorológicas para tomar uma decisão prática.
 
+#### Outra forma de representar algoritmos - Diagrama de Bloco
+
+O diagrama de blocos é uma forma padronizada e eficaz para representar os passos lógicos de um determinado processamento.
+
+Com o diagrama podemos definir uma sequência de símbolos, com significado bem definido, portanto, sua principal função é a de facilitar a visualização dos passos de um processamento.
+
+Existem diversos símbolos em um diagrama de bloco. Entretanto, segue os mais básicos:
+
+| Símbolo | Função |
+| :- | :- |
+| <img src="./Imagens/02-08-Inicio.png"> | Indica o INÍCIO ou FIM de um processamento.<br>Exemplo: Início do algoritmo |
+| <img src="./Imagens/02-08-Entrada.png"> | Indica entrada de dados através do Teclado<br>Exemplo: Digite a nota da prova 1 |
+| <img src="./Imagens/02-08-processamento.png" > | Processamento em geral.<br>Exemplo: Calculo de dois números |
+| <img src="./Imagens/02-08-Exibir.png" > | Mostra informações ou resultados<br>Exemplo: Mostre o resultado do cálculo |
+
+Dentro do símbolo sempre terá algo escrito, pois somente os símbolos não nos dizem nada. Veja no exemplo a seguir:
+
+<img src="./Imagens/02-09.png" >
+
+O que diagrama de bloco acima está representando?
+
+#### Voltando ao algoritmo de cálculo da média
+
+<img src="./Imagens/02-10.png" >
+
 #### Demonstração de alguns algoritmos em blocos
 
 Vamos montar alguns algoritmos utilizando blocos.
