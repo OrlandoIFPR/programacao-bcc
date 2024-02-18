@@ -1,0 +1,12 @@
+# Arquivos compilados #
+#######################
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# pasta output #
+################
+output

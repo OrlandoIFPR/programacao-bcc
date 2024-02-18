@@ -69,9 +69,13 @@ Essa é parte de uma prova que fiz para ganhar um formação completa em ciênci
 A questão possui 5 alternativas e somente uma delas está correta. Podemos garantir que a resposta certa é:
 
 A.: Século XX
+
 B.: Século XXI
+
 C.: Antes de 1960
+
 D.: Entre 1970 e 1990
+
 E.: No ano 2000
 
 2 - Os colaboradores do time de TI, enquanto aproveitam um happy hour, começam a especular as suas respectivas idades e concluem que:
@@ -96,7 +100,7 @@ E.: Cláudio e Thales
 
 Em seguida, após enumerar todos os vértices, o aluno deverá pintar de verde os lados do polígono que possuem vértices que se diferem somente em 1 (n ± 1). Os alunos que fizeram corretamente a atividade pintaram, no mínimo, quantos lados de verde?
 
-A.:10
+A.: 10
 
 B.: 5
 
@@ -170,7 +174,7 @@ C.: 15
 
 D.: 16 
 
-E.:20
+E.: 20
 
 9 - Em uma gincana organizada no processo seletivo XXXXX, o professor Walisson propôs um torneio com 8 participantes no total.
 Caetano é um dos participantes e sabe que vencerá todos os demais jogadores, com exceção da Andressa, que vencerá todos os oponentes.
