@@ -128,7 +128,7 @@ As regras gerais para os nomes de variáveis são:
 * Os nomes são case-sensitive ( `nome` e `Nome` são variáveis diferentes)
 * Os nomes não podem conter espaços em branco ou caracteres especiais como !, %, etc.
 * Palavras reservadas não pode ser utilizado como nomes: 
-``` C++
+```C++
 asm       auto      break     case
 catch     char      class     const
 continue  default   delete    do
