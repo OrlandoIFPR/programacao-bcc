@@ -48,6 +48,7 @@ Qualquer dificuldade, podem fazer acompanhando esse vídeo [C++ no VS Code](http
 * [Online GDB](https://www.onlinegdb.com/) --> só tem que lembrar de escolher a linguagem **C++** no canto superior direito da tela, antes de executar o código-fonte.
 
 ***Demonstração do processo de compilação***
+
 Crie um arquivo chamado hello.cpp com o seguinte código-fonte:
 ```C++
 #include <iostream>
@@ -90,6 +91,7 @@ int main() {
 **Linha 2**: `using namespace std` significa que podemos usar nomes para objetos e variáveis a partir do biblioteca padrão.
 
 ***Não se preocupe*** se você não entender como `#include <iostream>` e `using namespace std` funcionam. Basta pensar nisso como algo que (quase) sempre aparece em seu programa. Depois mais adiante iremos falar mais sobre isso. 
+
 **Linha 3**: Uma linha em branco. C++ ignora o espaço em branco. Mas nós o usamos para tornar o código mais legível.
 
 **Linha 4**: Outra coisa que sempre aparece em um programa C++ é `int main()`. Isso é chamado de Função. Todo código da função fica entre as chaves `{}`.
