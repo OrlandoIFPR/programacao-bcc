@@ -1,6 +1,6 @@
 ### Introdução à Programação
 
-#### Raciocínio Lógico
+#### Introdução à Lógica de programação
 
 **Prof**: João Paulo Orlando
 
