@@ -2,7 +2,7 @@
 
 #### Apresentação da disciplina
 
-**Prof**: João Paulo Orlando
+**Prof.**: João Paulo Orlando
 
 **Curso**: Bacharelado em Ciência da Computação
 

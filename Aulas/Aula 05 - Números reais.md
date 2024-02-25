@@ -2,7 +2,7 @@
 
 #### Números de ponto flutuante
 
-**Prof**: João Paulo Orlando
+**Prof.**: João Paulo Orlando
 
 **Curso**: Bacharelado em Ciência da Computação
 
@@ -76,7 +76,7 @@ int main(){
 Dependendo de como resolverem o problema **1021 - Notas e Moedas**, irão enfrentar esse problema de perda de precisão.
 
 
-Outra situação, é que em determinados problemas queremos definir a precisão da impressão dos nossos dados. Por exemplo, imagine que estamos desenvolvendo um programa de computador que faz cálculos referentes a dinheiro. Faz sentido para o usuário mostrar que o valor devido pelo usuário é `R$ 120.381`, nesse caso se exibe `R$ 120.38`. então precisamos modificar a precisão da exibição do nosso programa.
+Outra situação, é que em determinados problemas queremos definir a precisão da impressão dos nossos dados. Por exemplo, imagine que estamos desenvolvendo um programa que faz cálculos referentes a dinheiro. Faz sentido para o usuário mostrar que o valor devido pelo usuário é `R$ 120.381`, nesse caso se exibe `R$ 120.38`. Então precisamos modificar a precisão da exibição do nosso programa.
 
 ```C++
 #include <iostream> // std::fixed
@@ -157,7 +157,7 @@ Fórmula: `A = b*h/2`
 
 ```
 
-6 - Faça um programa que calcule o IMC de uma pessoa. Leia o Nome, Peso e Altura da pessoa.Aplique a fórmula: `IMC = peso/(altura^2)`
+6 - Faça um programa que calcule o IMC de uma pessoa. Leia o Nome, Peso e Altura da pessoa. Aplique a fórmula: `IMC = peso/(altura^2)`
 Exiba o resultado com 1 casa decimal.
 
 ```C++

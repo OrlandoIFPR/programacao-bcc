@@ -2,7 +2,7 @@
 
 #### Introdução à Programação com C++
 
-**Prof**: João Paulo Orlando
+**Prof.**: João Paulo Orlando
 
 **Curso**: Bacharelado em Ciência da Computação
 

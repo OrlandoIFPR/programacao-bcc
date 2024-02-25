@@ -2,7 +2,7 @@
 
 #### Introdução à Lógica de programação
 
-**Prof**: João Paulo Orlando
+**Prof.**: João Paulo Orlando
 
 **Curso**: Bacharelado em Ciência da Computação
 

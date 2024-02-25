@@ -2,7 +2,7 @@
 
 #### Variáveis, expressões e comandos
 
-**Prof**: João Paulo Orlando
+**Prof.**: João Paulo Orlando
 
 **Curso**: Bacharelado em Ciência da Computação
 
@@ -146,7 +146,7 @@ virtual   void      volatile  while
 
 #### Constantes
 
-Uma constante é um valor que não pode ser alterado durante a execução do programa. É um valor fixo e imutável que é definido no código-fonte e permanece constante ao longo da execução do programa.
+Uma constante é um valor que não pode ser alterado durante a execução do programa. É um valor fixo e imutável definido no código-fonte e permanece constante ao longo da execução do programa.
 
  Elas fornecem uma maneira de tornar o código mais legível, evitando o uso de valores literais que podem ser difíceis de entender e manter.
 
@@ -216,7 +216,7 @@ Faz uma pausa no programa e espera uma entrada do usuário pelo terminal.
 
 `cin` é um objeto usado em conjunto com o operador `>>` para ler dados do teclado 
 
-No próximo exemplo, o usuário pode informar um número inteiro que será armazenado na variável `x`, na sequencia o valor de `x` será impresso.
+No próximo exemplo, o usuário pode informar um número inteiro que será armazenado na variável `x`, na sequência o valor de `x` será impresso.
 
 ```C++
 #include <iostream>

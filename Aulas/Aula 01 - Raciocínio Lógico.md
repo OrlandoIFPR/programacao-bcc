@@ -2,7 +2,7 @@
 
 #### Raciocínio Lógico
 
-**Prof**: João Paulo Orlando
+**Prof.**: João Paulo Orlando
 
 **Curso**: Bacharelado em Ciência da Computação
 
