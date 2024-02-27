@@ -96,7 +96,7 @@ Usando as comparações é possível ordenar nomes.
 Operador | Operação | Exemplo | Interpretação
 :---- | :---- | :---- | :---- 
 && | E lógico | x && y | x e y
-|| | OU lógico | x || y | x ou y
+\|\| | OU lógico | x \|\| y | x ou y
 ! | NÃO lógico | !x | negue x
 
 Existem três operadores lógicos: `&&` , `||` e `!`, representando, respectivamente, os operadores AND, OR e NOT. A semântica (significado) desses operadores é similar ao significado deles em português. Por exemplo: , `x > 0 && x < 10` é verdadeiro somente se x é maior do que 0 e, ao mesmo tempo, x é menor do que 10. Como você descreveria isso em palavras? Você diria que x está entre 0 e 10, não incluindo as extremidades.
@@ -193,7 +193,7 @@ Estruturas condicionais podem ter diferentes níveis de complexidade, dependendo
 Executamos um bloco de código $A$ que somente deve ser executado caso uma determinada condição **seja satisfeita** (ou seja, avaliada como `true`). Caso contrário, o código $A$ é simplesmente ignorado.
 
 
-<img src="imagens\06-02.png" width=400>
+<img src=".\Imagens\06-02.png" width=400>
 
 Em C++ usamos a seguinte sintaxe:
 
@@ -210,7 +210,7 @@ FLUXO NORMAL DO PROGRAMA
 
 O comando `if` inicia o bloco, na sequência vem a `EXPRESSÃO BOOLEANA` dentro de uma parênteses que é a condição a ser verificada como verdadeira (true) ou falsa (false), depois tem `{` para iniciar a região que será executada caso a `EXPRESSÃO BOOLEANA` seja verdadeira.
 
-Após esses comandos, tem o `}` que finaliza a região do condicional, e na o fluxo normal do programa continua.
+Após esses comandos, tem o `}` que finaliza a região do condicional, e na sequência o fluxo normal do programa continua.
 
 Vamos testar esse código:
 ```C++
@@ -258,7 +258,7 @@ int main (){
 Um `if` pode ser associado a um `else`, contendo um bloco de código que é executado casa a condição do `if` **não seja satisfeita** (ou seja, avaliada como `False`).
  
  
- <img src="imagens\06-03.png" width=400>
+ <img src=".\Imagens\06-03.png" width=400>
 
 ```C++
 #include <iostream>
@@ -313,7 +313,7 @@ A primeira forma de incluir mais do que uma condição a ser testada na estrutur
 
 Cuidado! Em qualquer linguagem de programa é fundamental respeitar o nível de indentação dos blocos de código em cada nível hierárquico, pois isso torna o código-fonte mais legível.
 
-<img src="Imagens\06-04.png" width=400>
+<img src=".\Imagens\06-04.png" width=400>
 
 ```C++
 #include <iostream>
