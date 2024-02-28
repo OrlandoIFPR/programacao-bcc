@@ -356,7 +356,7 @@ int main() {
 ```
 Quando uma expressão contém mais de um operador, a ordem da avaliação depende da ordem das operações. Para operadores matemáticos, o C++ segue a convenção matemática.
 
-* Os Parênteses têm a precedência mais alta e podem ser usados para forçar a avaliação de uma expressão na ordem que você quiser. Como as expressões em parênteses são avaliadas primeiro, `2 * (3-1)` é `4`, e `(1+1)**(5-2)` é `8`. Também é possível usar parênteses para facilitar a leitura de uma expressão, como em `(minutos * 100) / 60`, mesmo se o resultado não for alterado.
+* Os Parênteses têm a precedência mais alta e podem ser usados para forçar a avaliação de uma expressão na ordem que você quiser. Como as expressões em parênteses são avaliadas primeiro, `2 * (3-1)` é `4`. Também é possível usar parênteses para facilitar a leitura de uma expressão, como em `(minutos * 100) / 60`, mesmo se o resultado não for alterado.
 
 * A Multiplicação e a Divisão têm precedência mais alta que a Adição e a Subtração. Assim, `2 * 3 - 1` é `5`, não `4`, e `6 + 4 / 2` é `8`, não `5`.
 
