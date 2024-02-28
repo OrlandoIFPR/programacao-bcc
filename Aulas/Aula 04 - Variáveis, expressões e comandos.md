@@ -370,19 +370,65 @@ Quando uma expressão contém mais de um operador, a ordem da avaliação depend
 1 - Escreva um programa que leia três números inteiros e imprima sua soma. 
 
 ```C++
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    
+    int val1, val2, val3, soma;
+    cin >> val1 >> val2 >> val3;
+    
+    soma = val1 + val2 + val3;
+    
+    cout << soma << endl;
+    
+    return 0;
+}
 
 ```
 
 2 - Escreva um programa que leia um número inteiro e imprima o seu quadrado.
 
 ```C++
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    
+    int valor, quadrado;
+    cin >> valor;
+    
+    quadrado = valor * valor;
+    
+    cout << quadrado << endl;
+    
+    return 0;
+}
 
 ```
 
 3 - Escreva um programa que leia o comprimento da base e a altura de um triângulo retângulo a seguir imprima a área.
-`area = (comprimento * altura) / 2`
+`area = (base * altura) / 2`
 
 ```C++
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    
+    double base, altura, area;
+    
+    cin >> base >> altura;
+    
+    area = (base * altura) / 2;
+    
+    cout << area << endl;
+    
+    return 0;
+}
 
 ```
 
@@ -393,6 +439,22 @@ Quando uma expressão contém mais de um operador, a ordem da avaliação depend
 O programa lê os números N e K. Deve imprimir as duas respostas para as perguntas acima.
 
 ```C++
+#include <iostream>
+
+using namespace std;
+
+int main(){
+    
+    int macas, pessoas, divisao, resto;
+    cin >> macas >> pessoas;
+    
+    divisao = macas/pessoas;
+    resto = macas%pessoas;
+    
+    cout << divisao << " " << resto << endl;
+    
+    return 0;
+}
 
 ```
 
