@@ -34,9 +34,7 @@ Se parares em qualquer número finito de bits, obterás uma aproximação.
 
 Para `double`:
 
-`
-0.1000000000000000055511151231257827021181583404541015625
-`
+`0.1000000000000000055511151231257827021181583404541015625`
 
 Para `float`:
 
@@ -45,15 +43,17 @@ Para `float`:
 
 Contém muito mais dígitos do que é o esperado e utilizado pela grande maioria dos desenvolvedores, portanto, o C++ limita o número de dígitos exibidos, apresentando um valor arredondado, ao invés de mostrar todas as casas decimais:
 
-`
-1 / 10
-0.1`
+```
+1.0 / 10
+
+0.1
+```
 
 Lembre-se, mesmo que o resultado impresso seja o valor exato de 1/10, o valor que verdadeiramente estará armazenado será uma fração binária representável que mais se aproxima.
 
 #### Problemas com números de ponto flutuante
 
-Após muitas operações, perda da precisão do valor, então em alguns casos é necessário ficar arrendondando os valores para melhorar a precisão.
+Após muitas operações, ocorrerá perda da precisão do valor, então em alguns casos é necessário ficar arrendondando os valores para melhorar a precisão.
 
 ```C++
 #include <iostream>
