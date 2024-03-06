@@ -128,40 +128,133 @@ int main(){
 
 1 - Faça um programa que leia 2 valores float (números reais) e exiba as 4 operações básicas. Mostre os valores sempre com 4 casas decimais.
 ```C++
+#include <iostream> // std::fixed
+#include <iomanip> // std::setprecision
+using namespace std;
 
+int main(){
+    double valorA, valorB;
+    cin >> valorA >> valorB;
+    
+    double soma, subtracao, multiplicao, divisao;
+    soma = valorA + valorB;
+    subtracao =  valorA - valorB;
+    multiplicao = valorA * valorB;
+    divisao = valorA / valorB;
+    
+    cout << fixed << setprecision(4);
+    cout << "Adição: " << soma << endl;
+    cout << "Subtração: " << subtracao << endl;
+    cout << "Multiplicação: " << multiplicao << endl;
+    cout << "Divisão: " << divisao << endl;
+
+    return 0;
+}
 ```
 
 2 - Faça um programa que leia 3 notas numerada de 0.0 até 10.0, calcule e exiba a média com 2 casas decimais.
 
 ```C++
+#include <iostream> // std::fixed
+#include <iomanip> // std::setprecision
+using namespace std;
 
+int main(){
+    double nota1, nota2, nota3, media;
+    
+    cin >> nota1;
+    cin >> nota2;
+    cin >> nota3;
+    
+    media = (nota1+nota2+nota3)/3;
+    cout << fixed << setprecision(2) << "Média: " << media << endl;
+    
+    return 0;
+}
 ```
 
 3 - Mesma coisa do programa anterior, mas agora calcule a média ponderada, onde as notas tem os seguintes pesos: 25, 30 e 45.
 
 ```C++
+#include <iostream> // std::fixed
+#include <iomanip> // std::setprecision
+using namespace std;
 
+int main(){
+    double nota1, nota2, nota3, media;
+    
+    cin >> nota1;
+    cin >> nota2;
+    cin >> nota3;
+    
+    media = (nota1*25+nota2*30+nota3*45)/100;
+    cout << fixed << setprecision(2) << "Média: " << media << endl;
+    
+    return 0;
+}
 ```
 
 4 - Faça um programa que calcule a área de um triângulo, dado a base e a altura em números double. Imprima a área com 3 casas decimais.
 Fórmula: `A = b*h/2`
 
 ```C++
+#include <iostream> // std::fixed
+#include <iomanip> // std::setprecision
+using namespace std;
 
+int main(){
+    double base, altura, area;
+    cin >> base >> altura;
+    
+    area = base*altura/2;
+
+    cout << fixed << setprecision(3) << "Área: " << area << endl;
+    
+    return 0;
+}
 ```
 
 5 - Faça um programa que leia um grau em Celsius e converta ele para Fahrenheit. Exiba os valores com duas casas decimais.
 `F = (C * 9/5) + 32`
 
 ```C++
+#include <iostream> // std::fixed
+#include <iomanip> // std::setprecision
+using namespace std;
 
+int main(){
+    //F = (C * 9/5) + 32
+    double grau_c, grau_f;
+    cin >> grau_c;
+    grau_f = (grau_c * 9 / 5) + 32;
+    
+    cout << fixed << setprecision(2) << grau_f << endl;
+    
+    return 0;
+}
 ```
 
 6 - Faça um programa que calcule o IMC de uma pessoa. Leia o Nome, Peso e Altura da pessoa. Aplique a fórmula: `IMC = peso/(altura^2)`
 Exiba o resultado com 1 casa decimal.
 
 ```C++
+#include <iostream> // std::fixed
+#include <iomanip> // std::setprecision
+using namespace std;
 
+int main(){
+    string nome;
+    cin >> nome;
+    double peso, altura, imc;
+    cin >> peso >> altura;
+    
+    imc = peso/(altura*altura);
+    
+    cout << fixed << setprecision(1);
+    cout << nome << " tem imc: " << imc << endl;
+    
+    return 0;
+}
 ```
 
 
