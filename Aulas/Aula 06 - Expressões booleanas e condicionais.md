@@ -393,6 +393,111 @@ int main (){
 }
 ```
 
+#### Forma abreviada do If...Else
+
+Há também uma uma forma abrevida de fazer um `if ... else`, mais conhecido como o operador ternário. Porque é composto por três operandos. Pode ser usado para substituir várias linhas código por uma única linha. É frequentemente usado para substituir declarações simples.
+
+**Sintaxe**:
+
+`variable = (condition) ? expressionTrue : expressionFalse;`
+
+Em vez de:
+```C++
+int time = 20;
+if (time < 18) {
+    cout << "Good day.";
+} else {
+    cout << "Good evening.";
+} 
+```
+
+Você pode simplesmente escrever:
+
+```C++
+int time = 20;
+string result = (time < 18) ? "Good day." : "Good evening.";
+cout << result; 
+```
+
+#### Switch 
+
+É uma forma de reduzir a complexidade de vários `if … else` encadeados.
+
+
+O conteúdo de uma variável é comparado com um valor constante, e caso a comparação seja verdadeira, um determinado comando é executado.
+
+**Sintaxe**:
+```C++
+switch(expression) {
+  case x:
+    // code block
+    break;
+  case y:
+    // code block
+    break;
+  default:
+    // code block
+}
+```
+A expressão `switch` é avaliada uma vez (mais eficiente que vários ifs).
+
+O valor da expressão é comparado com os valores de cada `case`.
+
+Veja o exemplo abaixo:
+```C++
+int day = 4;
+switch (day) {
+  case 1:
+    cout << "Monday";
+    break;
+  case 2:
+    cout << "Tuesday";
+    break;
+  case 3:
+    cout << "Wednesday";
+    break;
+  case 4:
+    cout << "Thursday";
+    break;
+  case 5:
+    cout << "Friday";
+    break;
+  case 6:
+    cout << "Saturday";
+    break;
+  case 7:
+    cout << "Sunday";
+    break;
+}
+// Saída "Thursday" (dia 4) 
+```
+##### Palavra-chave `break`
+Quando C++ atinge a break, ele sai do bloco `switch`.
+
+Isso impedirá a execução de mais códigos e testes de casos.
+
+Um `break` pode economizar muito tempo de execução porque "ignora" a execução de todo o resto do código do `switch`.
+
+##### Palavra-chave `default`
+
+A palavra-chave `default` especifica algum código a ser executado se não houver nenhum case executado:
+
+```C++
+int day = 4;
+switch (day) {
+  case 6:
+    cout << "Hoje é sábado";
+    break;
+  case 7:
+    cout << "Hoje é domingo";
+    break;
+  default:
+    cout << "Ansioso para o fim de semana";
+}
+// Saída "Ansioso para o fim de semana" 
+```
+
+
 Vamos agora fazer o exercício [1049](https://www.beecrowd.com.br/repository/UOJ_1049.html) do Beecrowd das duas formas usando aninhados e encadeados.
 
 ```C++

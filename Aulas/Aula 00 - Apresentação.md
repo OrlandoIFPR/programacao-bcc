@@ -56,8 +56,7 @@ CORMEN, Thomas H. Desmistificando algoritmos. Rio de Janeiro: Elsevier, 2014.
 FORBELLONE, André Luiz Villar; EBERSPÄCHER, Henri Frederico. Lógica de programação: a construção de algoritmos e estruturas de dados. 3. ed. São Paulo: Pearson Prentice Hall, 2005.
 
 #### BIBLIOGRAFIA COMPLEMENTAR
-MANZANO, José Augusto N. G.; OLIVEIRA, Jayr Figueiredo de. Algoritmos: lógica para desenvolvimento de programação de computadores. 28. ed., rev. a atual. São Paulo: Érica, 2016.
-336 p. ISBN 9788536517476 (broch.).
+MANZANO, José Augusto N. G.; OLIVEIRA, Jayr Figueiredo de. Algoritmos: lógica para desenvolvimento de programação de computadores. 28. ed., rev. a atual. São Paulo: Érica, 2016. 336 p. ISBN 9788536517476 (broch.).
 
 BENEDUZZI, Humberto Martins; METZ, João Ariberto. Lógica e linguagem de programação: introdução ao desenvolvimento de software. Curitiba: LT, 2010.
 
