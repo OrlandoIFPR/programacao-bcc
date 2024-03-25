@@ -120,6 +120,28 @@ Externo: 2
 1 - Faça um programa que leia dois valores inteiro, o início e fim do for. Após isso classifique todos os valores ENTRE ELES como par ou impar.
 
 ```C++
+#include <iostream>
+using namespace std;
+
+int main() {
+  
+  int inicio, fim;
+  
+  cin >> inicio >> fim;
+  
+  for (int i = inicio+1; i < fim; i++){
+      /*if (i%2==0){
+          cout << i << " eh par!" << endl;
+      }else{
+          cout << i << " eh impar!" << endl;
+      }*/
+      
+      cout << i << ((i%2)? " eh impar!": " eh par!") << endl;
+      
+  }
+  
+  return 0;
+}
 
 ```
 
@@ -127,23 +149,122 @@ Externo: 2
 
 1ª solução
 ```C++
+#include <iostream>
+using namespace std;
+
+int
+main ()
+{
+
+  int inicio, fim;
+
+  cin >> inicio >> fim;
+
+
+  if (inicio < fim){
+	  for (int i = inicio + 1; i < fim; i++){
+		  cout << i << ((i % 2) ? " eh impar!" : " eh par!") << endl;
+	  }
+  }else{
+      for (int i = fim + 1; i < inicio; i++){
+		  cout << i << ((i % 2) ? " eh impar!" : " eh par!") << endl;
+	  }
+  }
+  return 0;
+}
 
 ```
 
 2ª solução
 ```C++
+#include <iostream>
+using namespace std;
+
+int main (){
+
+  int inicio, fim, aux;
+
+  cin >> inicio >> fim;
+  
+  if (fim < inicio){
+    aux = inicio;
+    inicio = fim;
+    fim = aux;
+  }
+
+  for (int i = inicio + 1; i < fim; i++){
+    cout << i << ((i % 2) ? " eh impar!" : " eh par!") << endl;
+  }
+
+  return 0;
+}
 
 ```
 
 3 - Mesmo problema anterior, mas agora com a diferença é que queremos decrescente.
 
 ```C++
+#include <iostream>
+using namespace std;
+
+int
+main ()
+{
+
+  int inicio, fim, aux;
+
+  cin >> inicio >> fim;
+  
+  if (fim < inicio){
+    aux = inicio;
+    inicio = fim;
+    fim = aux;
+  }
+
+  for (int i = fim -1; i > inicio; i--){
+    cout << i << ((i % 2) ? " eh impar!" : " eh par!") << endl;
+  }
+
+  return 0;
+}
 
 ```
 Vamos resolver esse problema: 
 <img src=".\Imagens\07-02.png">
 
 ```C++
+#include <iostream>
+using namespace std;
+
+int main () {
+
+  int n, x, y, soma, aux;
+  
+  cin >> n;
+  
+  for (int i = 0; i < n; i++){
+      
+      cin >> x >> y;
+      
+      soma = 0;
+      
+      if (x > y){
+          aux = x;
+          x = y;
+          y = aux;
+      }
+      
+      for (int j = x+1; j < y; j++){
+          if (j % 2 != 0){
+              soma = soma + j;
+          }
+      }
+      cout << soma << endl;
+      
+  }
+
+  return 0;
+}
 
 ```
 
