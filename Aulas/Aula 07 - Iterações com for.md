@@ -230,6 +230,7 @@ main ()
 
 ```
 Vamos resolver esse problema: 
+
 <img src=".\Imagens\07-02.png">
 
 ```C++
