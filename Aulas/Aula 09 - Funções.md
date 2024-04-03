@@ -9,11 +9,11 @@
 
 As funções e procedimentos são elementos fundamentais na programação em C++, oferecendo uma maneira organizada e modular de estruturar o código. Eles permitem dividir um programa em partes menores e mais gerenciáveis, tornando-o mais legível, reutilizável e fácil de dar manutenção.
 
-A principal diferença entre função e procedimento está na capacidade de retornar valores. As funções são usadas quando se deseja calcular ou produzir um valor de retorno, enquanto os procedimentos são usados para realizar ações sem a necessidade de retornar um resultado específico. Na prática em C++, tem pouca diferença na implementação de uma função ou procedimento. Então apartir de agora só utilizarei o termo função.
+A principal diferença entre função e procedimento está na capacidade de retornar valores. As funções são usadas quando se deseja calcular ou produzir um valor de retorno, enquanto os procedimentos são usados para realizar ações sem a necessidade de retornar um resultado específico. Na prática, em C++, tem pouca diferença na implementação de uma função ou procedimento. Então a partir de agora só utilizarei o termo função.
 
 #### Criando uma função
 
-O C++ fornece algumas funções predefinidas, como `main()`, que é a função inicial do seu programa. Entretando, você também pode criar suas próprias funções para realizar certas ações.
+O C++ fornece algumas funções predefinidas, como `main()`, que é a função inicial do seu programa. Entretanto, você também pode criar suas próprias funções para realizar certas ações.
 
 Para declarar uma função devemos seguir a seguinte sintaxe:
 ```C++
@@ -29,9 +29,9 @@ void minhaFuncao() {
 
 As funções declaradas não são executadas imediatamente. Eles são "salvas para mais tarde serem usadas".
 
-Para chamar uma função, escreva o nome da função seguido por dois parênteses () e um sem vírgula ;
+Para chamar uma função, escreva o nome da função seguido por dois parênteses `()` e um ponto vírgula`;`
 
-No seguinte exemplo, minhafuncao() é usada para imprimir um texto, quando é chamada:
+No seguinte exemplo, `minhafuncao();` é usada para imprimir um texto, quando é chamada:
 
 
 ```C++
@@ -66,7 +66,7 @@ int main() {
   return 0;
 }
 ```
-**Obs**: Se uma função é declarado após o main(), o programa gera erro. Sempre a declaração é antes.
+**Obs**: Se uma função é declarado após o `main()`, o programa gera erro. Sempre a declaração é antes.
 
 No entanto, é possível separar a declaração e a definição da função para otimização de código.
 
@@ -121,9 +121,9 @@ void imprimaNota(int qtd, string valor) {
 }
 ```
 
-#### Parâmetros com valores Default
+#### Parâmetros com valor padrão
 
-Em C++, as funções também podem ter parâmetros opcionais, para os quais nenhum argumento é necessário na chamada, de tal forma que, por exemplo, uma função com três parâmetros pode ser chamada com apenas dois. Para isso, a função deve incluir um valor padrão para seu último parâmetro, que é usado pela função quando chamada com menos argumentos.
+Em C++, as funções também podem ter parâmetros opcionais, para os quais nenhum argumento é necessário na chamada, de tal forma que, por exemplo, uma função com três parâmetros pode ser chamada com apenas dois. Para isso, a função deve incluir um valor padrão para seu último parâmetro, usado pela função quando chamada com menos argumentos.
 
 ```C++
 #include <iostream>
@@ -136,15 +136,13 @@ int main() {
   imprimaSoma(1, 3, 5);
   imprimaSoma(1, 3);
   imprimaSoma(5);
-  
-  
   return 0;
 }
 ```
 
-Retornando valor 
+#### Retornando valor 
 
-A palavra-chave `void`, usada nos exemplos anteriores, indica que a função não deve retornar um valor. Se você quer que a função retorne um valor, você pode usar um tipo de dados (como int, float, double, string, etc) em vez de void, e usar o comando return dentro da função:
+A palavra-chave `void`, usada nos exemplos anteriores, indica que a função não deve retornar um valor. Se você quer que a função retorne um valor, você pode usar um tipo de dados (como `int`, `float`, `double`, `string`, etc) em vez de `void`, e usar o comando `return` dentro da função:
 
 ```C++
 #include <iostream>
@@ -160,7 +158,7 @@ int main() {
 }
 ```
 
-Outro exemplo que retorna a soma dois parâmetros para uma variável no `main()`.
+Exemplo que retorna a soma dois parâmetros para uma variável no `main()`.
 
 ```C++
 #include <iostream>
@@ -173,6 +171,27 @@ int myFunction(int x, int y) {
 int main() {
   int soma = myFunction(5, 3);
   cout << soma << endl;
+  return 0;
+}
+```
+Ao passar pelo `return` a função é encerrada. Veja o exemplo abaixo:
+
+```C++
+#include <iostream>
+using namespace std;
+
+int elimina_negativo(int valor){
+  if (valor < 0)
+    return 0;
+  
+  return valor;
+}
+
+int main(){
+  cout<<elimina_negativo(-7) << endl;
+  cout<<elimina_negativo(0) << endl;
+  cout<<elimina_negativo(7) << endl;
+
   return 0;
 }
 ```
@@ -198,11 +217,11 @@ int main() {
   return 0;
 }
 ```
-Vams executar esse código no [PyTutor](https://pythontutor.com/render.html#code=%23include%20%3Ciostream%3E%0Ausing%20namespace%20std%3B%0A%0Avoid%20troca%28int%20x,%20int%20y%29%20%7B%0A%20%20int%20temp%20%3D%20x%3B%0A%20%20x%20%3D%20y%3B%0A%20%20y%20%3D%20temp%3B%0A%7D%0A%0Aint%20main%28%29%20%7B%0A%20%20int%20x%20%3D%2010,%20y%20%3D%2020%3B%0A%20%20troca%28x,%20y%29%3B%0A%20%20cout%20%3C%3C%20x%20%3C%3C%20%22%20%22%20%3C%3C%20y%20%3C%3C%20endl%3B%0A%20%20return%200%3B%0A%7D&cumulative=false&curInstr=11&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=cpp_g%2B%2B9.3.0&rawInputLstJSON=%5B%5D&textReferences=false)
+Vamos executar esse código no [PyTutor](https://pythontutor.com/render.html#code=%23include%20%3Ciostream%3E%0Ausing%20namespace%20std%3B%0A%0Avoid%20troca%28int%20x,%20int%20y%29%20%7B%0A%20%20int%20temp%20%3D%20x%3B%0A%20%20x%20%3D%20y%3B%0A%20%20y%20%3D%20temp%3B%0A%7D%0A%0Aint%20main%28%29%20%7B%0A%20%20int%20x%20%3D%2010,%20y%20%3D%2020%3B%0A%20%20troca%28x,%20y%29%3B%0A%20%20cout%20%3C%3C%20x%20%3C%3C%20%22%20%22%20%3C%3C%20y%20%3C%3C%20endl%3B%0A%20%20return%200%3B%0A%7D&cumulative=false&curInstr=11&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=cpp_g%2B%2B9.3.0&rawInputLstJSON=%5B%5D&textReferences=false)
 
 Em C++, a passagem de valores por referência é uma técnica que permite que uma função acesse e modifique diretamente o conteúdo de uma variável fora de seu escopo. Em contraste com a passagem por valor, onde uma cópia do valor é passada para a função, na passagem por referência, é passado um endereço de memória da variável original.
 
-Para passar um valor por referência em C++, você precisa declarar os parâmetros da função usando o operador '&' antes do nome do parâmetro. Por exemplo:
+Para passar um valor por referência em C++, você precisa declarar os parâmetros da função usando o operador `&` antes do nome do parâmetro. Por exemplo:
 
 ```C++
 #include <iostream>
@@ -221,7 +240,7 @@ int main() {
   return 0;
 }
 ```
-Vamos ver a diferença nesse caso [PyTutor](https://pythontutor.com/render.html#code=%23include%20%3Ciostream%3E%0Ausing%20namespace%20std%3B%0A%0Avoid%20troca%28int%20%26x,%20int%20%26y%29%20%7B%0A%20%20int%20temp%20%3D%20x%3B%0A%20%20x%20%3D%20y%3B%0A%20%20y%20%3D%20temp%3B%0A%7D%0A%0Aint%20main%28%29%20%7B%0A%20%20int%20x%20%3D%2010,%20y%20%3D%2020%3B%0A%20%20troca%28x,%20y%29%3B%0A%20%20cout%20%3C%3C%20x%20%3C%3C%20%22%20%22%20%3C%3C%20y%20%3C%3C%20endl%3B%0A%20%20return%200%3B%0A%7D&cumulative=false&curInstr=11&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=cpp_g%2B%2B9.3.0&rawInputLstJSON=%5B%5D&textReferences=false).
+Vamos ver esse caso, passando por referência [PyTutor](https://pythontutor.com/render.html#code=%23include%20%3Ciostream%3E%0Ausing%20namespace%20std%3B%0A%0Avoid%20troca%28int%20%26x,%20int%20%26y%29%20%7B%0A%20%20int%20temp%20%3D%20x%3B%0A%20%20x%20%3D%20y%3B%0A%20%20y%20%3D%20temp%3B%0A%7D%0A%0Aint%20main%28%29%20%7B%0A%20%20int%20x%20%3D%2010,%20y%20%3D%2020%3B%0A%20%20troca%28x,%20y%29%3B%0A%20%20cout%20%3C%3C%20x%20%3C%3C%20%22%20%22%20%3C%3C%20y%20%3C%3C%20endl%3B%0A%20%20return%200%3B%0A%7D&cumulative=false&curInstr=11&heapPrimitives=nevernest&mode=display&origin=opt-frontend.js&py=cpp_g%2B%2B9.3.0&rawInputLstJSON=%5B%5D&textReferences=false).
 
 Ao usar a passagem por referência, a função pode modificar diretamente o valor da variável original. Isso é útil quando se deseja evitar a sobrecarga de memória associada à passagem por valor, especialmente quando se trabalha com grandes estruturas de dados.
 
@@ -268,12 +287,12 @@ int main() {
 
 2 - Crie uma função em C++ chamada `maiorNumero` que recebe três números inteiros como parâmetros e retorna o maior deles.
 
-4 - Implemente uma função em C++ chamada `ehPar` que verifica se um número inteiro passado como parâmetro é par ou não, retornando true se for par e false caso contrário.
+4 - Implemente uma função em C++ chamada `ehPar` que verifica se um número inteiro passado como parâmetro é par ou não, retornando `true` se for par e `false` caso contrário.
 
 5 - Escreva uma função em C++ chamada `fatorial` que calcula o fatorial de um número inteiro passado como parâmetro.
 
-6 - Implemente uma função em C++ chamada `ehPrimo` que verifica se um número inteiro passado como parâmetro é primo ou não, retornando true se for primo e false caso contrário.
+6 - Implemente uma função em C++ chamada `ehPrimo` que verifica se um número inteiro passado como parâmetro é primo ou não, retornando `true` se for primo e `false` caso contrário.
 
-7 - Implemente uma função em C++ chamada `potencia` que calcula a potência de um número inteiro base elevado a um expoente inteiro passados como parâmetros.
+7 - Implemente uma função em C++ chamada `potencia` que calcula a potência de um número inteiro base elevado a um expoente inteiro passados como parâmetros. Deve ser feito usando `for`.
 
 8 - Implemente uma função chamada `calcularFibonacci` que recebe um número inteiro positivo como argumento e retorna o termo correspondente na sequência de Fibonacci.
