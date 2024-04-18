@@ -148,7 +148,7 @@ int main () {
 }
 
 ```
-Outras funções da classe `string` podem ser concultadas em [cplusplus](https://cplusplus.com/reference/string/string/)
+Outras funções da classe `string` podem ser consultadas em [cplusplus](https://cplusplus.com/reference/string/string/)
 
 
 #### Tamanho de uma string
@@ -260,7 +260,7 @@ cin >> nome;
 cout << "O nome digitado foi: " << nome << endl;
 ```
 
-Entretando, o `cin` considera um espaço(espaço em branco, tab, etc) como separador entre valores:
+Entretando, o `cin` considera um espaço (espaço em branco, tab, etc) como separador entre valores:
 
 ```C++
 string fullName;
@@ -285,6 +285,46 @@ cout << "O seu nome é: " << fullName;
 // Informe o nome completo: Joao Paulo Orlando 
 // O seu nome é: Joao Paulo Orlando
 ```
+
+**IMPORTANTE**: Em algumas situações especificas a utilização do cin e getline() no mesmo programa causará problemas. Vamos a um exemplo simples.
+```C++
+#include <iostream>
+using namespace std;
+
+int main(){
+    string sobrenome, endereco;
+    
+    cin >> sobrenome;
+    getline(cin, endereco);
+    
+    cout << sobrenome <<" --> " << endereco;
+
+    return 0;
+}
+```
+O que acontece é que o Buffer de entrada possui um caractere `\n` armazenado na hora que irá ler a variável `endereco` e o `getline()` lê uma entrada até o `\n`. 
+
+Um buffer de entrada é uma área de memória temporária que é usada para armazenar dados temporariamente enquanto estão sendo transferidos entre dispositivos ou processos. Em termos simples, ele é usado para armazenar dados que estão sendo lidos de um dispositivo de entrada, como um teclado, mouse, disco ou rede, antes que esses dados sejam processados ou manipulados de alguma forma.
+
+Então absolutamente tudo que você digita será armazenado, voltando ao exemplo anterior, quando digitei o sobrenome, pressionei enter (caractere `\n`), esse não foi guardado na variável `sobrenome` e ficou esperando a próxima leitura que foi `getline()`. Para contornar esse problema temos várias soluções, mas a mais básica é utilizar um `getchar()` entre um `cin >>` e o `getline()`;
+
+```C++
+#include <iostream>
+using namespace std;
+
+int main(){
+    string sobrenome, endereco;
+    
+    cin >> sobrenome;
+    getchar(); // retira \n do buffer
+    getline(cin, endereco);
+    
+    cout << sobrenome <<" --> " << endereco;
+
+    return 0;
+}
+```
+
 
 Vamos ver uma solução para o problema [2753 - Saída 7](https://judge.beecrowd.com/pt/problems/view/2753)
 
@@ -334,7 +374,4 @@ int main(){
 }
 ```
 
-
-Faltou falar do getchar()
-
-
+Agora podem começar a fazer a **Lista 8 - Strings**
