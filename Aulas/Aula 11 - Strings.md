@@ -69,7 +69,7 @@ e
 7
 ```
 
-Transformando o carácter númerico em inteiro.
+Transformando o carácter numérico em inteiro.
 
 Cuidado com isso!
 
@@ -86,7 +86,7 @@ cout << num_char << " --> " << num << endl;
 7 --> 55
 ```
 
-Para converte para inteiro precisamos fazer o seguinte cálculo:
+Para converter para inteiro precisamos fazer o seguinte cálculo:
 
 ```C++
 char num_char = '7';
@@ -101,7 +101,7 @@ cout << num_char << " --> " << num << endl;
 ```
 
 
-#### Strings ou Cadeias de caracteres ou Conjunto de caracteres
+#### Strings ou Cadeias de caracteres, ou Conjunto de caracteres
 A manipulação de conjuntos de caracteres (strings) é uma operação muito comum em processamento não numérico. Imagine os programas editores de texto que precisam fazer operações do tipo:
 * Procurar uma cadeia de caracteres no texto;
 * Eliminar uma cadeia do texto;
@@ -116,7 +116,7 @@ string nome = "João Paulo";
 cout << nome << endl;
 ```
 
-Para utilizar todos recursos de string, é necessário incluir a biblioteca `<string>`.
+Para utilizar todos os recursos das strings, é necessário incluir a biblioteca `<string>`.
 
 #### Concatenação
 
@@ -129,7 +129,7 @@ string lastName = "Orlando";
 string fullName = firstName + " " + lastName;
 ```
 
-Então o operador `+` serve tanto para adição de dois números como para a concatenação. Entretando se usar esse operador entre um inteiro e uma string, um erro é gerado;
+Então o operador `+` serve tanto para adição de dois números como para a concatenação. Entretanto se usar esse operador entre um inteiro e uma string, um erro é gerado;
 
 
 Uma string, em C++, é um objeto, que contém funções que podem executar determinadas operações com strings. Uma dessas funções é o `append()` que permite concatenar strings.
@@ -148,7 +148,7 @@ int main () {
 }
 
 ```
-Outras funções da classe `string` podem ser consultadas em [cplusplus](https://cplusplus.com/reference/string/string/)
+Outras funções da classe `string` podem ser consultadas em [cplusplus](https://cplusplus.com/reference/string/string/).
 
 
 #### Tamanho de uma string
@@ -182,7 +182,7 @@ cout << "Iniciais:" << firstName[0] << lastName[0] << endl;
 
 #### Mudando um carácter de uma string
 
-Para mudar um carácter específico em uma string, é feito uma atribuição para um deteminado índice da string;
+Para mudar um carácter específico em uma string, é feito uma atribuição para um determinado índice da string;
 
 ```C++
 string nome =  "Joao paulo";
@@ -229,7 +229,7 @@ Como as strings devem ser escritas dentro das aspas duplas, o C++ não entender�
 string txt = "We are the so-called "Vikings" from the north.";
 
 ```
-A solução para evitar esse problema é usar o caráter de contrabarra (`\`).
+A solução para evitar esse problema é usar o carácter de contrabarra (`\`).
 
 A contrabarra (`\`) transforma caracteres especiais em caracteres de cadeia de texto;
 
@@ -239,8 +239,8 @@ string txt = "We are the so-called \"Vikings\" from the north.";
 
 Comando | Resultado | Descrição
 -|-|-
-\\' | ' | Exibe uma aspa simple
-\\" | " | Exibe uma Aspa dupla
+\\' | ' | Exibe uma aspa simples
+\\" | " | Exibe uma aspa dupla
 \\\ | \ | Exibe uma contrabarra
 
 Outros caracteres especiais são:
@@ -260,7 +260,7 @@ cin >> nome;
 cout << "O nome digitado foi: " << nome << endl;
 ```
 
-Entretando, o `cin` considera um espaço (espaço em branco, tab, etc) como separador entre valores:
+Entretanto, o `cin` considera um espaço (espaço em branco, tab, etc) como separador entre valores:
 
 ```C++
 string fullName;
@@ -286,7 +286,7 @@ cout << "O seu nome é: " << fullName;
 // O seu nome é: Joao Paulo Orlando
 ```
 
-**IMPORTANTE**: Em algumas situações especificas a utilização do cin e getline() no mesmo programa causará problemas. Vamos a um exemplo simples.
+**IMPORTANTE**: Em algumas situações especificas a utilização do `cin` e `getline()` no mesmo programa causará problemas. Vamos a um exemplo simples.
 ```C++
 #include <iostream>
 using namespace std;
@@ -304,7 +304,7 @@ int main(){
 ```
 O que acontece é que o Buffer de entrada possui um caractere `\n` armazenado na hora que irá ler a variável `endereco` e o `getline()` lê uma entrada até o `\n`. 
 
-Um buffer de entrada é uma área de memória temporária que é usada para armazenar dados temporariamente enquanto estão sendo transferidos entre dispositivos ou processos. Em termos simples, ele é usado para armazenar dados que estão sendo lidos de um dispositivo de entrada, como um teclado, mouse, disco ou rede, antes que esses dados sejam processados ou manipulados de alguma forma.
+Um buffer de entrada é uma área de memória temporária usada para armazenar dados temporariamente enquanto estão sendo transferidos entre dispositivos ou processos. Em termos simples, ele é usado para armazenar dados que estão sendo lidos de um dispositivo de entrada, como um teclado, mouse, disco ou rede, antes que esses dados sejam processados ou manipulados de alguma forma.
 
 Então absolutamente tudo que você digita será armazenado, voltando ao exemplo anterior, quando digitei o sobrenome, pressionei enter (caractere `\n`), esse não foi guardado na variável `sobrenome` e ficou esperando a próxima leitura que foi `getline()`. Para contornar esse problema temos várias soluções, mas a mais básica é utilizar um `getchar()` entre um `cin >>` e o `getline()`;
 
@@ -342,7 +342,7 @@ int main(){
 }
 ```
 
-O comando `(int)letra` está fazendo a convesão do carácter para a sua codificação ASCII;
+O comando `(int)letra` está fazendo a conversão do carácter para a sua codificação ASCII;
 
 
 Vamos resolver o problema [1253 - Cifra de César](https://judge.beecrowd.com/pt/problems/view/1253)
