@@ -64,9 +64,9 @@ Reparem o limite do `short int` é 32.767, ao incrementar 1, o valor exibido nã
 
 #### Conversão entre tipos de variáveis
 
-A conversão de uma variável consiste em converter o tipo de uma variável em um outro.
+A conversão de uma variável consiste em converter o tipo de uma variável em outro.
 
-**Conversões do tipo implícita**: Consiste em uma modificação do tipo de variável que é feita automaticamente pelo compilador. 
+**Conversões do tipo implícita**: Consiste em uma modificação do tipo de variável feita automaticamente pelo compilador. 
 ```C++
 
 double val_f = 3.245624;
@@ -215,7 +215,7 @@ int main(){
 }
 ```
 
-Ponteiros são essenciais para estrutaras de dados mais complexas.
+Ponteiros são essenciais para estruturas de dados mais complexas.
 Vamos ver um exemplo de uma estrutura de dados chama lista, mas não se preocupem isso é assunto de outra disciplina.
 
 ```C++
