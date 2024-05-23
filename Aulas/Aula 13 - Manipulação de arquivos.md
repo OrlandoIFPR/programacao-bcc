@@ -6,7 +6,7 @@
 
 **Curso**: Bacharelado em Ciência da Computação
 
-O armazenamento de dados de variáveis é temporário, ou seja, ao terminar a execução do programa os dados deixam de existir. Isso acontece porque todos as informações de programas rodando ficam na memória princial (RAM). Para que os dados sejam armazenados de forma permanente precisamos salva na memória secundária, por exemplo, disco rígido (HDD).
+O armazenamento de dados de variáveis é temporário, ou seja, ao terminar a execução do programa os dados deixam de existir. Isso acontece porque todas as informações de programas rodando ficam na memória principal (RAM). Para que os dados sejam armazenados de forma permanente precisamos salva na memória secundária, por exemplo, disco rígido (HDD).
 
 Para isso, é necessário salvar os dados em arquivos do seu computador.
 
@@ -15,7 +15,7 @@ Para isso, é necessário salvar os dados em arquivos do seu computador.
 
 #### Bibliotecas
 
-Existem três bibliotecas no C++, que são usadas para criar, escrever ou ler arquivos:
+Existem três bibliotecas no C++, usadas para criar, escrever ou ler arquivos:
 
 Biblioteca | Descrição
 - | -
@@ -78,7 +78,7 @@ Linha 10: Trabalhar com arquivos é muito fácil!
 #### Ler um arquivo
 Para ler um arquivo, use a classe `ifstream` ou `fstream` e o nome do arquivo.
 
-Observe que também utilizamos um loop `while`  junto com a função `getline()` para ler o arquivo linha por linha:
+Observe que também utilizamos um loop `while`  com a função `getline()` para ler o arquivo linha por linha:
 
 ```C++
 #include <iostream>
@@ -157,7 +157,7 @@ int main() {
     arquivo.close();
 }
 ```
-Obs: o método `seekp` indica a posição (em bytes) do arquivo em que o próximo dado será lido.
+Obs.: o método `seekp` indica a posição (em bytes) do arquivo em que o próximo dado será lido.
 
 
 Isso é só uma amostra do que pode ser feito, a documentação completa dessas bibliotecas pode ser vista em:
