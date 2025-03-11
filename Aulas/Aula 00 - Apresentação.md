@@ -86,19 +86,27 @@ No transcorrer do semestre teremos 4 avaliações que serão:
 
 Nas listas de exercícios, o sistema de anti-plágio estará ativado, caso identifique alguma suspeita de plágio, convocarei o(s) aluno(s) para realizar uma atividade presencial de resolução e apresentação dos exercícios resolvidos.
 
+**Intregração curricular**:
+Haverá uma integração curricular com a disciplina de Introdução à Matemática, componente curricular do mesmo período que Introdução à Programação. Em ambas as disciplinas será proposto um instrumento de avaliação onde os discentes desenvolverão um algoritmo para resolver um problema computacional simples, farão a análise do algoritmo e plotarão um gráfico com os resultados. Essa integração visa promover a aplicação prática de conceitos matemáticos e de programação, fortalecendo habilidades interdisciplinares.
+
+**Utilização de Atividades Práticas Supervisionadas (APS)**:
+Serão 10 aulas no decorrer do semestre, seguindo o seguinte cronograma:
+- 26/04: Atividades práticas na plataforma beecrowd: Operadores aritméticos e lógicos.
+- 24/05: Atividades práticas na plataforma beecrowd: Comandos de condição e seleção.
+- 14/06: Atividades práticas na plataforma beecrowd: Comandos de repetição.
+- 05/07: Atividades práticas na plataforma beecrowd: Estruturas de dados.
+- 12/07: Trabalho prático: Desenvolvimento de um algoritmo para resolução de um problema computacional simples. Entega pelo SUAP. 
+
 
 #### Material de aula
-
-[ClassRoom](https://classroom.google.com)
-* **Código de acesso**: sdzbzv2 
 
 [GitHub](https://github.com/OrlandoIFPR/programacao-bcc)
 
 [Beecrowd](https://www.beecrowd.com.br/judge/pt/login): 
 * Acessar as listas de exercícios através do botão **Academic**, digitando:
-    * **ID Disciplina**: 12064
+    * **ID Disciplina**: 14070
 
-    * **Chave**: 1duIMxs
+    * **Chave**: LWjmwt1
 
 #### Atendimento
 Os meus horários de atendimentos serão exclusivamente:
@@ -106,8 +114,8 @@ Os meus horários de atendimentos serão exclusivamente:
 * Por e-mail: joaopauloorlando@gmail.com (preferencial) ou joao.orlando@ifpr.edu.br
 
 * Na minha sala nos seguintes horários:
-    * Segunda-feira das 13:00 horas até 15:00 horas e
-    * Quarta-feira das 13:00 horas até 15:00 horas.
+    * Quinta-feira das 13:00 horas até 15:00 horas e
+    * Sexta-feira das 13:00 horas até 15:00 horas.
 
 * Por WhatsApp, não estarei atendendo, salvo exceções quando autorizar e passar o número.
 
