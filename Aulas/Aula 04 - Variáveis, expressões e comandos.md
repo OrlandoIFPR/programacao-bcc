@@ -496,9 +496,9 @@ int main(){
 
 6 -  Agora estão prontos para acessar a disciplina, cliquem do botão **Academic** (está no topo da página), cliquem em **Acessar Disciplina**  e digitem os seguintes dados para acessar:
 
-ID Disciplina: **12064**
+**ID Disciplina**: 14070
 
-Chave: **1duIMxs** 
+**Chave**: LWjmwt1
 
 Só precisa fazer isso a primeira vez, depois, sempre estará disponível esse acesso pelo botão **Academic**.
 

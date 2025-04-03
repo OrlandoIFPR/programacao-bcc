@@ -111,7 +111,7 @@ Serão 10 aulas no decorrer do semestre, seguindo o seguinte cronograma:
 #### Atendimento
 Os meus horários de atendimentos serão exclusivamente:
 
-* Por e-mail: joaopauloorlando@gmail.com (preferencial) ou joao.orlando@ifpr.edu.br
+* Por e-mail: joao.orlando@ifpr.edu.br
 
 * Na minha sala nos seguintes horários:
     * Quinta-feira das 13:00 horas até 15:00 horas e
